@@ -194,6 +194,20 @@ a {
     padding: 70px 0;
 }
 
+.page-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.categories .section-subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    max-width: 650px;
+    margin: 0 auto 30px;
+}
+
 .category-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
