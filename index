@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Auriva Export | Gıda İhracatı</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Auriva Export – içecek, kuruyemiş, kuru meyve, baharat ve zeytinyağı ihracatı.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Üst Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-left">
+        <span>info@aurivaexport.com</span>
+        <span>+90 000 000 00 00</span>
+      </div>
+      <div class="top-right">
+        <a href="#">TR</a>
+        <a href="#">EN</a>
+        <a href="#">AR</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Menü -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span>Auriva<span>Export</span></span>
+      </div>
+      <nav class="main-nav">
+        <a href="#hero">Anasayfa</a>
+        <a href="#about">Kurumsal</a>
+        <a href="#categories">Ürünler</a>
+        <a href="#brands">Markalar</a>
+        <a href="#news">Haberler</a>
+        <a href="#contact">İletişim</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / Slider benzeri alan -->
+  <section id="hero" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Global Pazarlara <span>Güvenli Gıda</span> İhracatı</h1>
+        <p>
+          Auriva Export; enerji içeceği, gazlı-gazsız içecek, kuruyemiş, kuru meyve, baharat ve zeytinyağı
+          ürünlerini dünya pazarlarıyla buluşturan tedarik ve ihracat firmasıdır.
+        </p>
+        <div class="hero-actions">
+          <a href="#categories" class="btn primary">Ürünleri Görüntüle</a>
+          <a href="#contact" class="btn secondary">Teklif Al</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <!-- Buraya R2 görsel URL’i ekleyeceğiz -->
+        <div class="hero-image-placeholder">Ürün görseli</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kategori Sayıları (Leziza’daki gibi) -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat-card">
+        <h3>Enerji İçecekleri</h3>
+        <p>0 ürün</p>
+      </div>
+      <div class="stat-card">
+        <h3>İçecekler</h3>
+        <p>0 ürün</p>
+      </div>
+      <div class="stat-card">
+        <h3>Zeytinyağı</h3>
+        <p>0 ürün</p>
+      </div>
+      <div class="stat-card">
+        <h3>Kuruyemiş</h3>
+        <p>0 ürün</p>
+      </div>
+      <div class="stat-card">
+        <h3>Kuru Meyve</h3>
+        <p>0 ürün</p>
+      </div>
+      <div class="stat-card">
+        <h3>Baharat</h3>
+        <p>0 ürün</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kurumsal Kısa Bilgi -->
+  <section id="about" class="about">
+    <div class="container about-inner">
+      <div class="about-text">
+        <h2>Hakkımızda</h2>
+        <p>
+          Auriva Export, gıda ihracatı alanında faaliyet gösteren bir dış ticaret firmasıdır. 
+          İçecek, kuruyemiş, kuru meyve, baharat ve zeytinyağı gruplarında yüksek kaliteli ürünleri,
+          rekabetçi fiyatlarla uluslararası müşterilere ulaştırır.
+        </p>
+        <p>
+          Güvenilir tedarik ağı, güçlü lojistik altyapı ve esnek ambalaj seçenekleriyle toptan
+          müşterilere çözüm sunar.
+        </p>
+        <a href="#contact" class="btn primary">Detaylı Bilgi Al</a>
+      </div>
+      <div class="about-boxes">
+        <div class="about-box">
+          <h3>Geniş Ürün Yelpazesi</h3>
+          <p>İçecek, kuruyemiş, kuru meyve, baharat ve yağ gruplarında onlarca ürün.</p>
+        </div>
+        <div class="about-box">
+          <h3>Esnek Ambalaj</h3>
+          <p>Private label ve özel gramaj seçenekleri ile markanıza uygun çözümler.</p>
+        </div>
+        <div class="about-box">
+          <h3>Global Teslimat</h3>
+          <p>Dünya genelinde konteyner bazlı sevkiyat ve liman teslim seçenekleri.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ürün Kategori Kartları -->
+  <section id="categories" class="categories">
+    <div class="container">
+      <h2>Ürün Gruplarımız</h2>
+      <p class="section-subtitle">Ürün kategorilerini inceleyin ve teknik detaylar için bizimle iletişime geçin.</p>
+
+      <div class="category-grid">
+        <div class="category-card">
+          <h3>Enerji İçecekleri</h3>
+          <p>Farklı hacimlerde ve aromalarda enerji içecekleri.</p>
+          <a href="#" class="link">Ürünleri Gör</a>
+        </div>
+        <div class="category-card">
+          <h3>Gazlı & Gazsız İçecekler</h3>
+          <p>Meyve aromalı gazlı ve gazsız içecek çeşitleri.</p>
+          <a href="#" class="link">Ürünleri Gör</a>
+        </div>
+        <div class="category-card">
+          <h3>Kuruyemiş</h3>
+          <p>Fındık, badem, kaju, çekirdek ve daha fazlası.</p>
+          <a href="#" class="link">Ürünleri Gör</a>
+        </div>
+        <div class="category-card">
+          <h3>Kuru Meyve</h3>
+          <p>Kayısı, incir, üzüm, hurma ve diğer kuru meyveler.</p>
+          <a href="#" class="link">Ürünleri Gör</a>
+        </div>
+        <div class="category-card">
+          <h3>Baharatlar</h3>
+          <p>Toz ve tane baharat çeşitleri, farklı gramajlar.</p>
+          <a href="#" class="link">Ürünleri Gör</a>
+        </div>
+        <div class="category-card">
+          <h3>Zeytinyağı & Yağlar</h3>
+          <p>Farklı hacimlerde natürel zeytinyağı ve bitkisel yağlar.</p>
+          <a href="#" class="link">Ürünleri Gör</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Markalar (placeholder) -->
+  <section id="brands" class="brands">
+    <div class="container">
+      <h2>Markalarımız</h2>
+      <div class="brand-row">
+        <div class="brand-item">Brand A</div>
+        <div class="brand-item">Brand B</div>
+        <div class="brand-item">Brand C</div>
+        <div class="brand-item">Brand D</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Haberler / Duyurular -->
+  <section id="news" class="news">
+    <div class="container">
+      <h2>Haber & Duyuru</h2>
+      <div class="news-grid">
+        <article class="news-card">
+          <h3>Yeni Ürün Çeşitlerimiz Çok Yakında</h3>
+          <p>Auriva Export, ürün portföyünü genişletmek için yeni içecek ve kuruyemiş grupları eklemektedir.</p>
+          <span class="news-meta">2025</span>
+        </article>
+        <article class="news-card">
+          <h3>Orta Doğu ve Avrupa’ya Yeni İhracat Hatları</h3>
+          <p>Yeni lojistik anlaşmalarımız ile farklı limanlara sevkiyat kolaylığı sağlıyoruz.</p>
+          <span class="news-meta">2025</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- İletişim -->
+  <section id="contact" class="contact">
+    <div class="container contact-inner">
+      <div class="contact-info">
+        <h2>Adres & İletişim</h2>
+        <p>Auriva Export</p>
+        <p>Adres satırı buraya gelecek</p>
+        <p>Şehir / Ülke</p>
+        <p><strong>Tel:</strong> +90 000 000 00 00</p>
+        <p><strong>E-Posta:</strong> info@aurivaexport.com</p>
+      </div>
+      <div class="contact-form">
+        <h3>Teklif / Bilgi Formu</h3>
+        <form>
+          <input type="text" placeholder="Adınız Soyadınız">
+          <input type="email" placeholder="E-posta Adresiniz">
+          <input type="text" placeholder="Ülkeniz">
+          <textarea rows="4" placeholder="Talep ettiğiniz ürünler ve miktar"></textarea>
+          <button type="submit" class="btn primary">Gönder</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p>© Auriva Export. Tüm hakları saklıdır.</p>
+      </div>
+      <div class="footer-right">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
