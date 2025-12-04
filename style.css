@@ -141,6 +141,36 @@ a {
     border: 2px dashed #bbb;
 }
 
+/* HERO ARKA PLAN GÖRSELİ */
+.hero {
+  background-image: url("https://pub-9d95183d55a44dcdba5ffffc32614556.r2.dev/auriva-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 120px 0;
+  position: relative;
+}
+
+/* Arka planın yazıları etkilememesi için beyaz
+   yarı saydam katman – isterseniz silebiliriz */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.20);
+  backdrop-filter: blur(1px);
+}
+
+/* İçerik öne gelsin */
+.hero-inner {
+  position: relative;
+  z-index: 2;
+}
+
+
 /* ===== STATS ===== */
 .stats {
     background: #fff;
