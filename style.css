@@ -79,17 +79,7 @@ a {
 }
 
 /* ===== HERO ===== */
-.hero {
-    position: relative;
-    padding: 140px 0 120px; /* üst-alt boşluk */
-    background-image:
-        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url("https://pub-585b66b20b564bd1a65488c08c0942b0.r2.dev/Gemini_Generated_Image_cc2n7xcc2n7xcc2n.png");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    color: #fff;
-}
+
 
 .hero-inner {
     display: flex;
@@ -152,14 +142,7 @@ a {
 }
 
 /* HERO ARKA PLAN GÖRSELİ */
-.hero {
-  background-image: url("https://pub-585b66b20b564bd1a65488c08c0942b0.r2.dev/Gemini_Generated_Image_cc2n7xcc2n7xcc2n.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 120px 0;
-  position: relative;
-}
+
 
 /* Arka planın yazıları etkilememesi için beyaz
    yarı saydam katman – isterseniz silebiliriz */
