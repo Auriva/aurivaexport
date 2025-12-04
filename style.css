@@ -80,10 +80,15 @@ a {
 
 /* ===== HERO ===== */
 .hero {
-    padding: 70px 0;
-    /* Arka planı tam genişlikte resim yap */
-    background: #fafafa url("https://pub-585b66b20b564bd1a65488c08c0942b0.r2.dev/Gemini_Generated_Image_cc2n7xcc2n7xcc2n.png")
-        center center / cover no-repeat;
+    position: relative;
+    padding: 140px 0 120px; /* üst-alt boşluk */
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("https://pub-585b66b20b564bd1a65488c08c0942b0.r2.dev/Gemini_Generated_Image_cc2n7xcc2n7xcc2n.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
 }
 
 .hero-inner {
@@ -99,17 +104,20 @@ a {
 
 .hero-text h1 {
     font-size: 42px;
-    line-height: 1.3;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #ffffff;
 }
 
 .hero-text h1 span {
-    color: #d60000;
+    color: #ff3b3b; /* Güvenli kelimesi yine kırmızı kalsın */
 }
 
 .hero-text p {
-    margin: 15px 0 30px;
-    font-size: 18px;
-    color: #444;
+    font-size: 16px;
+    color: #f5f5f5;
+    max-width: 520px;
+    line-height: 1.6;
 }
 
 .hero-actions .btn {
