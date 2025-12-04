@@ -110,6 +110,12 @@ a {
     line-height: 1.6;
 }
 
+.hero-full {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .hero-actions .btn {
     display: inline-block;
     padding: 12px 25px;
