@@ -80,8 +80,10 @@ a {
 
 /* ===== HERO ===== */
 .hero {
-    background: #fafafa;
     padding: 70px 0;
+    /* Arka planı tam genişlikte resim yap */
+    background: #fafafa url("https://pub-585b66b20b564bd1a65488c08c0942b0.r2.dev/Gemini_Generated_Image_cc2n7xcc2n7xcc2n.png")
+        center center / cover no-repeat;
 }
 
 .hero-inner {
