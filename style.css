@@ -133,6 +133,29 @@ a {
     color: #fff;
 }
 
+/* === HERO RESMİNİ YARIYA KISALT === */
+.hero-section {
+    position: relative;
+    height: 420px; /* resmin yüksekliği - burayı istediğin gibi ayarlarsın */
+    overflow: hidden;
+}
+
+.hero-section img.hero-full {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* genişlik bozulmaz, yükseklik kırpılır */
+}
+
+/* === HERO YAZI ORTALAMA === */
+.hero .hero-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
 /* HERO Image Placeholder */
 .hero-image-placeholder {
     width: 380px;
@@ -250,6 +273,8 @@ a {
     color: #d60000;
     font-weight: 600;
 }
+
+
 
 /* ===== BRANDS ===== */
 .brands {
@@ -371,30 +396,4 @@ a {
         height: 250px;
     }
 
-    /* === HERO RESİM YÜKSEKLİĞİNİ KISALTMA === */
-.hero-section {
-    position: relative;
-    height: 380px; /* yüksekliği buradan ayarlıyoruz – şu an yarı seviyesinde */
-    overflow: hidden;
-}
-
-.hero-section img.hero-full {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* genişlik aynı kalır, yükseklik kırpılır */
-}
-
-/* === HERO YAZI ORTALAMA === */
-.hero-centered-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #ffffff;
-    width: 100%;
-    max-width: 700px;
-    padding: 20px;
-    text-shadow: 0 0 10px rgba(0,0,0,0.6);
-  }
 }
