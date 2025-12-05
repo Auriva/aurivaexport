@@ -207,11 +207,27 @@ a {
 }
 
 .stat-card {
-    background: #f9f9f9;
+    background: #fff;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
     border: 1px solid #eee;
+    transition: 0.3s;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    border-color: #d60000;
+}
+
+.stat-image {
+    max-width: 80px;
+    max-height: 80px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* ===== ABOUT ===== */
