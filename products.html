@@ -6,6 +6,32 @@
   <title>Auriva Export | Ürünler</title>
   <meta name="description" content="Auriva Export ürün kataloğu – enerji içeceği, içecek, kuruyemiş, kuru meyve, baharat ve yağ grupları.">
   <link rel="stylesheet" href="style.css">
+
+  <!-- SADECE PRODUCTS SAYFASINA ÖZEL İKİ SÜTUN KODU -->
+  <style>
+    .cat-columns {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 40px;
+    }
+
+    .cat-columns ul {
+      flex: 1 1 50%;
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .cat-columns {
+        flex-direction: column;
+      }
+
+      .cat-columns ul {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+  
 </head>
 
 <body>
