@@ -202,16 +202,19 @@ a {
 
 .stats-grid {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr); /* 5 kart için tam hizalama */
     gap: 20px;
 }
 
+/* Kutu ve resim tamamen dolsun, yazı üstünde olsun */
 .stat-card {
-    background: #fff;
-    padding: 20px;
+    position: relative;
+    overflow: hidden;
     border-radius: 10px;
-    text-align: center;
     border: 1px solid #eee;
+    height: 160px;               /* kutu yüksekliği – istersen 140/180 yapabiliriz */
+    background: #000;
+    cursor: pointer;
     transition: 0.3s;
 }
 
@@ -220,15 +223,28 @@ a {
     border-color: #d60000;
 }
 
+/* Resim kutuyu tamamen doldurur */
 .stat-image {
-    max-width: 80px;
-    max-height: 80px;
-    object-fit: contain;
-    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;           /* kutuyu taşmadan doldurur */
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
+
+/* Yazı kutucuğun ÜSTÜNE biner */
+.stat-card h3 {
+    position: absolute;
+    bottom: 0;                   /* istersen top:0 yapıp en üste alabiliriz */
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 8px 0;
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
 
 /* ===== ABOUT ===== */
 .about {
