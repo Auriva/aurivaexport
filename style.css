@@ -112,7 +112,8 @@ a {
 
 .hero-full {
     width: 100%;
-    height: auto;
+    height: 380px;      /* yüksekliği buradan ayarlayabilirsin (ör: 320–420) */
+    object-fit: cover;  /* genişlik aynı kalır, resim yukarı–aşağı kırpılır */
     display: block;
 }
 
