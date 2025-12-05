@@ -380,6 +380,10 @@ a {
     padding-left: 20px; /* madde işareti boşluğu */
 }
 
+.category-row .cat-content .cat-columns ul li {
+    line-height: 26px;  /* her ürün satırı aynı yükseklikte */
+}
+
 
 .link {
     margin-top: 10px;
