@@ -119,6 +119,17 @@ a {
     display: block;
 }
 
+/* Resim ile kartlar arasındaki hero yazı bloğu */
+.hero-content {
+    text-align: center;
+    padding: 25px 0 10px;   /* yazı ile resim/kartlar arası boşluk */
+}
+
+.hero-content .hero-text {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
 .hero-actions .btn {
     display: inline-block;
     padding: 12px 25px;
