@@ -369,10 +369,6 @@ a {
     justify-content: center; /* yazıları dikeyde ortalar */
 }
 
-.category-row {
-    max-width: 1020px;
-    margin: 0 auto;
-}
 
 /* ÜRÜNLERDE 5 + 5 İKİ SÜTUN */
 .category-row .cat-content .product-list {
