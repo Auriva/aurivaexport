@@ -369,19 +369,18 @@ a {
     justify-content: center; /* yazıları dikeyde ortalar */
 }
 
-/* ÜRÜN LİSTELERİNİ YAN YANA AL */
-.category-row .cat-content .cat-columns {
-    display: flex;      /* iki UL yan yana */
-    gap: 40px;          /* 1 ile 6 arasındaki boşluk */
+/* ÜRÜNLERDE 5 + 5 İKİ SÜTUN */
+.category-row .cat-content .product-list {
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;          /* 2 sütun yap */
+    column-gap: 40px;    /* iki sütun arası boşluk */
+    padding-left: 20px;  /* madde işareti boşluğu */
+    margin: 0;           /* listenin üst boşluğu olmasın */
 }
 
-.category-row .cat-content .cat-columns ul {
-    margin: 0;          /* üst boşluğu sil – 1 ve 6 aynı hizadan başlar */
-    padding-left: 20px; /* madde işareti boşluğu */
-}
-
-.category-row .cat-content .cat-columns ul li {
-    line-height: 26px;  /* her ürün satırı aynı yükseklikte */
+.category-row .cat-content .product-list li {
+    line-height: 26px;   /* her satır aynı yükseklikte */
 }
 
 
