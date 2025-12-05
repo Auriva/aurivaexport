@@ -369,6 +369,17 @@ a {
     justify-content: center; /* yazıları dikeyde ortalar */
 }
 
+/* ÜRÜN LİSTELERİNİ YAN YANA AL */
+.category-row .cat-content .cat-columns {
+    display: flex;      /* iki UL yan yana */
+    gap: 40px;          /* 1 ile 6 arasındaki boşluk */
+}
+
+.category-row .cat-content .cat-columns ul {
+    margin: 0;          /* üst boşluğu sil – 1 ve 6 aynı hizadan başlar */
+    padding-left: 20px; /* madde işareti boşluğu */
+}
+
 
 .link {
     margin-top: 10px;
