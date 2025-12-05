@@ -320,6 +320,42 @@ a {
     font-weight: 600;
 }
 
+/* === CATEGORY CARDS WITH IMAGES === */
+.category-with-image {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.category-with-image .cat-img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #eee;
+}
+
+.category-with-image .cat-info {
+    flex: 1;
+}
+
+.category-with-image h3 {
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.category-with-image p {
+    margin: 0 0 10px;
+    color: #444;
+}
+
+.category-with-image .link {
+    font-weight: 600;
+    color: #d60000;
+}
+
 
 
 /* ===== BRANDS ===== */
