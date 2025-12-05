@@ -346,19 +346,19 @@ a {
 .category-row {
     display: flex;
     align-items: stretch;
-    padding: 0;              /* iç boşluğu içteki content'e taşıyoruz */
+    padding: 0;
     overflow: hidden;
 }
 
 .category-row .cat-image-wrap {
-    width: 180px;            /* resmin genişliği – istersen 160/200 yapabiliriz */
-    min-width: 180px;
+    width: 220px;        /* resmi biraz geniş tuttuk */
+    min-width: 220px;
 }
 
 .category-row .cat-image-wrap img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;       /* kutunun üstünü ve altını doldurur */
+    height: auto;        /* yüksekliği içeriğe göre olsun */
+    object-fit: contain; /* resmin hiçbir yeri kesilmesin, tamamı görünsün */
     display: block;
 }
 
