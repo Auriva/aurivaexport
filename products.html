@@ -7,31 +7,34 @@
   <meta name="description" content="Auriva Export ürün kataloğu – enerji içeceği, içecek, kuruyemiş, kuru meyve, baharat ve yağ grupları.">
   <link rel="stylesheet" href="style.css">
 
-  <!-- SADECE PRODUCTS SAYFASINA ÖZEL İKİ SÜTUN KODU -->
+  <!-- SADECE PRODUCTS SAYFASINA ÖZEL 5+5 DÜZENİ -->
   <style>
     .cat-columns {
       display: flex;
-      flex-wrap: wrap;
-      column-gap: 40px;
+      flex-wrap: nowrap;   /* yan yana sabit */
+      gap: 40px;           /* iki sütun arası boşluk */
     }
 
     .cat-columns ul {
-      flex: 1 1 50%;
+      width: 50%;
       margin: 0;
-      padding-left: 20px;
+      padding-left: 20px;  /* madde işareti boşluğu */
+    }
+
+    .cat-columns li {
+      line-height: 26px;   /* satır yüksekliği – 1 ve 6 aynı hizadan başlar */
     }
 
     @media (max-width: 768px) {
       .cat-columns {
-        flex-direction: column;
+        flex-direction: column;  /* telefonda alt alta */
       }
 
       .cat-columns ul {
-        flex: 1 1 100%;
+        width: 100%;
       }
     }
   </style>
-  
 </head>
 
 <body>
