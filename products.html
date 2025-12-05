@@ -22,8 +22,9 @@
     }
 
     .cat-columns li {
-      line-height: 26px;   /* satır yüksekliği – 1 ve 6 aynı hizadan başlar */
-    }
+      line-height: 26px;      /* satır yüksekliği */
+      white-space: nowrap;    /* yazı tek satırda kalsın, alt satıra inmesin */
+}
 
     @media (max-width: 768px) {
       .cat-columns {
@@ -32,6 +33,10 @@
 
       .cat-columns ul {
         width: 100%;
+      }
+
+      .cat-columns li {
+        white-space: normal;    /* telefonda yine satır satır bölünsün */
       }
     }
   </style>
