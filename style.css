@@ -594,4 +594,16 @@ a {
         height: 250px;
     }
 
+    .site-logo {
+    height: 60px;       /* Masaüstü için logo yüksekliği */
+    width: auto;        /* Oran bozulmasın */
+    object-fit: contain;
+}
+
+/* Mobilde biraz daha küçük olsun */
+@media (max-width: 768px) {
+    .site-logo {
+        height: 45px;
+    }
+
 }
