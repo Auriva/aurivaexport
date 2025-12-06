@@ -261,15 +261,15 @@
       </div>
 
       <div class="contact-form">
-        <h3>Teklif / Bilgi Formu</h3>
-        <form>
-          <input type="text" placeholder="Ad Soyad">
-          <input type="email" placeholder="E-posta">
-          <input type="text" placeholder="Ülke">
-          <textarea rows="4" placeholder="Talep ettiğiniz ürünler"></textarea>
-          <button type="submit" class="btn primary">Gönder</button>
-        </form>
-      </div>
+  <h3>Teklif / Bilgi Formu</h3>
+  <form action="send.php" method="POST">
+    <input type="text" name="name" placeholder="Ad Soyad" required>
+    <input type="email" name="email" placeholder="E-posta" required>
+    <input type="text" name="country" placeholder="Ülke">
+    <textarea name="message" rows="4" placeholder="Talep ettiğiniz ürünler" required></textarea>
+    <button type="submit" class="btn primary">Gönder</button>
+  </form>
+</div>
     </div>
   </section>
 
