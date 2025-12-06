@@ -349,16 +349,20 @@ a {
     overflow: hidden;
 }
 
+/* TÜM RESİMLER İÇİN KARE KUTU */
 .category-row .cat-image-wrap {
-    width: 220px;        /* resmi biraz geniş tuttuk */
+    width: 220px;      /* Kuruyemiş resmine göre genişlik */
     min-width: 220px;
+    height: 220px;     /* Kare yapmak için yükseklik ekledik */
 }
 
+/* RESİMLER KESİLMEDEN KAREYE OTURSUN */
 .category-row .cat-image-wrap img {
     width: 100%;
-    height: auto;        /* yüksekliği içeriğe göre olsun */
-    object-fit: contain; /* resmin hiçbir yeri kesilmesin, tamamı görünsün */
+    height: 100%;
+    object-fit: contain;   /* Tamamı görünsün, kesilmesin */
     display: block;
+    background: #fff;      /* Gerekirse boş kalan alan beyaz olsun */
 }
 
 .category-row .cat-content {
