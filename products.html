@@ -69,29 +69,15 @@
 
 <body>
 
-  <!-- Üst Bar -->
-  <div class="top-bar">
-    <div class="container top-bar-inner">
-      <div class="top-left">
-        <span>info@aurivaexport.com</span>
-        <span>+90 552 941 24 69</span>
-      </div>
-      <div class="top-right">
-        <a href="#" onclick="translatePage('tr')">TR</a>
-        <a href="#" onclick="translatePage('en')">EN</a>
-        <a href="#" onclick="translatePage('ar')">AR</a>
-        <a href="#" onclick="translatePage('es')">ES</a>
-        <a href="#" onclick="translatePage('de')">DE</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- HEADER -->
+  <!-- Header / Menü (Anasayfa ile aynı) -->
   <header class="site-header">
     <div class="container header-inner">
+      <!-- Sol: Logo -->
       <div class="logo">
-        Auriva<span>Export</span>
+        <span>Auriva<span>Export</span></span>
       </div>
+
+      <!-- Orta: Menü -->
       <nav class="main-nav">
         <a href="index.html#hero" data-i18n-key="Anasayfa">Anasayfa</a>
         <a href="index.html#about" data-i18n-key="Kurumsal">Kurumsal</a>
@@ -99,6 +85,22 @@
         <a href="index.html#news" data-i18n-key="Haberler">Haberler</a>
         <a href="index.html#contact" data-i18n-key="İletişim">İletişim</a>
       </nav>
+
+      <!-- Sağ: İletişim + Diller -->
+      <div class="header-right">
+        <div class="header-contact">
+          <a href="mailto:info@aurivaexport.com">info@aurivaexport.com</a>
+          <span class="divider">|</span>
+          <a href="tel:+905529412469">+90 552 941 24 69</a>
+        </div>
+        <div class="header-lang">
+          <span onclick="translatePage('tr')">TR</span>
+          <span onclick="translatePage('en')">EN</span>
+          <span onclick="translatePage('ar')">AR</span>
+          <span onclick="translatePage('es')">ES</span>
+          <span onclick="translatePage('de')">DE</span>
+        </div>
+      </div>
     </div>
   </header>
 
