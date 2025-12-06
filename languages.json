@@ -1,1 +1,122 @@
 
+{
+  "tr": {
+    "Anasayfa": "Anasayfa",
+    "Kurumsal": "Kurumsal",
+    "Ürünler": "Ürünler",
+    "Haberler": "Haberler",
+    "İletişim": "İletişim",
+
+    "Global Pazarlara Güvenli Gıda İhracatı": "Global Pazarlara Güvenli Gıda İhracatı",
+    "Ürünleri Görüntüle": "Ürünleri Görüntüle",
+    "Teklif Al": "Teklif Al",
+
+    "Zeytin": "Zeytin",
+    "Zeytinyağı": "Zeytinyağı",
+    "Kuruyemiş": "Kuruyemiş",
+    "Kuru Meyve": "Kuru Meyve",
+    "Baharat": "Baharat",
+
+    "Hakkımızda": "Hakkımızda",
+    "Geniş Ürün Yelpazesi": "Geniş Ürün Yelpazesi",
+    "Esnek Ambalaj": "Esnek Ambalaj",
+    "Global Teslimat": "Global Teslimat",
+    "Ürün Gruplarımız": "Ürün Gruplarımız"
+  },
+
+  "en": {
+    "Anasayfa": "Home",
+    "Kurumsal": "About",
+    "Ürünler": "Products",
+    "Haberler": "News",
+    "İletişim": "Contact",
+
+    "Global Pazarlara Güvenli Gıda İhracatı": "Safe Food Export to Global Markets",
+    "Ürünleri Görüntüle": "View Products",
+    "Teklif Al": "Get a Quote",
+
+    "Zeytin": "Olives",
+    "Zeytinyağı": "Olive Oil",
+    "Kuruyemiş": "Nuts",
+    "Kuru Meyve": "Dried Fruits",
+    "Baharat": "Spices",
+
+    "Hakkımızda": "About Us",
+    "Geniş Ürün Yelpazesi": "Wide Product Range",
+    "Esnek Ambalaj": "Flexible Packaging",
+    "Global Teslimat": "Global Delivery",
+    "Ürün Gruplarımız": "Our Product Groups"
+  },
+
+  "ar": {
+    "Anasayfa": "الصفحة الرئيسية",
+    "Kurumsal": "عن الشركة",
+    "Ürünler": "المنتجات",
+    "Haberler": "الأخبار",
+    "İletişim": "اتصل بنا",
+
+    "Global Pazarlara Güvenli Gıda İhracatı": "تصدير غذاء آمن إلى الأسواق العالمية",
+    "Ürünleri Görüntüle": "عرض المنتجات",
+    "Teklif Al": "احصل على عرض",
+
+    "Zeytin": "زيتون",
+    "Zeytinyağı": "زيت زيتون",
+    "Kuruyemiş": "مكسرات",
+    "Kuru Meyve": "فواكه مجففة",
+    "Baharat": "بهارات",
+
+    "Hakkımızda": "من نحن",
+    "Geniş Ürün Yelpazesi": "تشكيلة منتجات واسعة",
+    "Esnek Ambalaj": "تعبئة مرنة",
+    "Global Teslimat": "تسليم عالمي",
+    "Ürün Gruplarımız": "مجموعات منتجاتنا"
+  },
+
+  "es": {
+    "Anasayfa": "Inicio",
+    "Kurumsal": "Corporativo",
+    "Ürünler": "Productos",
+    "Haberler": "Noticias",
+    "İletişim": "Contacto",
+
+    "Global Pazarlara Güvenli Gıda İhracatı": "Exportación de alimentos seguros a los mercados globales",
+    "Ürünleri Görüntüle": "Ver productos",
+    "Teklif Al": "Solicitar oferta",
+
+    "Zeytin": "Aceitunas",
+    "Zeytinyağı": "Aceite de oliva",
+    "Kuruyemiş": "Frutos secos",
+    "Kuru Meyve": "Fruta deshidratada",
+    "Baharat": "Especias",
+
+    "Hakkımızda": "Sobre nosotros",
+    "Geniş Ürün Yelpazesi": "Amplia gama de productos",
+    "Esnek Ambalaj": "Embalaje flexible",
+    "Global Teslimat": "Entrega global",
+    "Ürün Gruplarımız": "Nuestros grupos de productos"
+  },
+
+  "de": {
+    "Anasayfa": "Startseite",
+    "Kurumsal": "Unternehmen",
+    "Ürünler": "Produkte",
+    "Haberler": "Nachrichten",
+    "İletişim": "Kontakt",
+
+    "Global Pazarlara Güvenli Gıda İhracatı": "Sicherer Lebensmittelexport in globale Märkte",
+    "Ürünleri Görüntüle": "Produkte anzeigen",
+    "Teklif Al": "Angebot anfordern",
+
+    "Zeytin": "Oliven",
+    "Zeytinyağı": "Olivenöl",
+    "Kuruyemiş": "Nüsse",
+    "Kuru Meyve": "Trockenfrüchte",
+    "Baharat": "Gewürze",
+
+    "Hakkımızda": "Über uns",
+    "Geniş Ürün Yelpazesi": "Breites Produktspektrum",
+    "Esnek Ambalaj": "Flexible Verpackung",
+    "Global Teslimat": "Globale Lieferung",
+    "Ürün Gruplarımız": "Unsere Produktgruppen"
+  }
+}
