@@ -576,6 +576,7 @@ a {
     justify-content: space-between;
 }
 
+/* HEADER + FOOTER logoları için ortak class */
 .site-logo {
     height: 60px;       /* Masaüstü için logo yüksekliği */
     width: auto;        /* Oran bozulmasın */
@@ -587,9 +588,10 @@ a {
     .site-logo {
         height: 45px;
     }
+}
 
 /* ===== MOBİL ===== */
-@media(max-width: 850px) {
+@media (max-width: 850px) {
 
     .hero-inner,
     .about-inner,
