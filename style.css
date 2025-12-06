@@ -578,7 +578,7 @@ a {
 
 /* HEADER + FOOTER logoları için ortak class */
 .site-logo {
-    height: 60px;       /* Masaüstü için logo yüksekliği */
+    height: 70px;       /* Masaüstü için logo yüksekliği */
     width: auto;        /* Oran bozulmasın */
     object-fit: contain;
 }
