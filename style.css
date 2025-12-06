@@ -68,6 +68,14 @@ a {
     color: #d60000;
 }
 
+/* === AURIVA LOGO GÖRSELİ === */
+.header-logo img {
+    height: 55px;       /* MENUDE GÖRÜNECEK BOYUT */
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+
 .main-nav a {
     margin-left: 25px;
     font-weight: 600;
