@@ -1,4 +1,3 @@
-
 {
   "tr": {
     "Anasayfa": "Anasayfa",
@@ -21,7 +20,15 @@
     "Geniş Ürün Yelpazesi": "Geniş Ürün Yelpazesi",
     "Esnek Ambalaj": "Esnek Ambalaj",
     "Global Teslimat": "Global Teslimat",
-    "Ürün Gruplarımız": "Ürün Gruplarımız"
+    "Ürün Gruplarımız": "Ürün Gruplarımız",
+
+    "Badem, fındık, kaju, çekirdek çeşitleri.": "Badem, fındık, kaju, çekirdek çeşitleri.",
+    "Kayısı, incir, hurma ve üzüm çeşitleri.": "Kayısı, incir, hurma ve üzüm çeşitleri.",
+    "Toz ve tane baharat çeşitleri.": "Toz ve tane baharat çeşitleri.",
+    "Zeytin & zeytinyağı çeşitleri.": "Zeytin & zeytinyağı çeşitleri.",
+    "Auriva Export; Kuruyemiş, kuru meyve, baharat ve zeytinyağı ürünlerini dünya pazarlarıyla buluşturan tedarik ve ihracat firmasıdır.": "Auriva Export; Kuruyemiş, kuru meyve, baharat ve zeytinyağı ürünlerini dünya pazarlarıyla buluşturan tedarik ve ihracat firmasıdır.",
+    "Güvenilir tedarik ağı ve güçlü lojistik altyapısı ile hizmet verir.": "Güvenilir tedarik ağı ve güçlü lojistik altyapısı ile hizmet verir.",
+    "Detaylı Bilgi Al": "Detaylı Bilgi Al"
   },
 
   "en": {
@@ -45,7 +52,15 @@
     "Geniş Ürün Yelpazesi": "Wide Product Range",
     "Esnek Ambalaj": "Flexible Packaging",
     "Global Teslimat": "Global Delivery",
-    "Ürün Gruplarımız": "Our Product Groups"
+    "Ürün Gruplarımız": "Our Product Groups",
+
+    "Badem, fındık, kaju, çekirdek çeşitleri.": "Varieties of almonds, hazelnuts, cashews and seeds.",
+    "Kayısı, incir, hurma ve üzüm çeşitleri.": "Varieties of apricots, figs, dates and grapes.",
+    "Toz ve tane baharat çeşitleri.": "Varieties of ground and whole spices.",
+    "Zeytin & zeytinyağı çeşitleri.": "Varieties of olives and olive oil.",
+    "Auriva Export; Kuruyemiş, kuru meyve, baharat ve zeytinyağı ürünlerini dünya pazarlarıyla buluşturan tedarik ve ihracat firmasıdır.": "Auriva Export is a trading and export company that supplies nuts, dried fruits, spices and olive oil products to global markets.",
+    "Güvenilir tedarik ağı ve güçlü lojistik altyapısı ile hizmet verir.": "It serves with a reliable supply network and strong logistics infrastructure.",
+    "Detaylı Bilgi Al": "More Details"
   },
 
   "ar": {
@@ -69,7 +84,15 @@
     "Geniş Ürün Yelpazesi": "تشكيلة منتجات واسعة",
     "Esnek Ambalaj": "تعبئة مرنة",
     "Global Teslimat": "تسليم عالمي",
-    "Ürün Gruplarımız": "مجموعات منتجاتنا"
+    "Ürün Gruplarımız": "مجموعات منتجاتنا",
+
+    "Badem, fındık, kaju, çekirdek çeşitleri.": "أنواع من اللوز والبندق والكاجو والبذور.",
+    "Kayısı, incir, hurma ve üzüm çeşitleri.": "أنواع من المشمش والتين والتمر والعنب.",
+    "Toz ve tane baharat çeşitleri.": "أنواع من البهارات المطحونة والحبوب.",
+    "Zeytin & zeytinyağı çeşitleri.": "أنواع الزيتون وزيت الزيتون.",
+    "Auriva Export; Kuruyemiş, kuru meyve, baharat ve zeytinyağı ürünlerini dünya pazarlarıyla buluşturan tedarik ve ihracat firmasıdır.": "أوريفا إكسبرت هي شركة تجارة وتصدير تقدم منتجات المكسرات والفواكه المجففة والبهارات وزيت الزيتون إلى الأسواق العالمية.",
+    "Güvenilir tedarik ağı ve güçlü lojistik altyapısı ile hizmet verir.": "تقدم خدماتها من خلال شبكة توريد موثوقة وبنية لوجستية قوية.",
+    "Detaylı Bilgi Al": "معلومات مفصلة"
   },
 
   "es": {
@@ -93,7 +116,15 @@
     "Geniş Ürün Yelpazesi": "Amplia gama de productos",
     "Esnek Ambalaj": "Embalaje flexible",
     "Global Teslimat": "Entrega global",
-    "Ürün Gruplarımız": "Nuestros grupos de productos"
+    "Ürün Gruplarımız": "Nuestros grupos de productos",
+
+    "Badem, fındık, kaju, çekirdek çeşitleri.": "Variedades de almendras, avellanas, anacardos y semillas.",
+    "Kayısı, incir, hurma ve üzüm çeşitleri.": "Variedades de albaricoques, higos, dátiles y uvas.",
+    "Toz ve tane baharat çeşitleri.": "Variedades de especias molidas y en grano.",
+    "Zeytin & zeytinyağı çeşitleri.": "Variedades de aceitunas y aceite de oliva.",
+    "Auriva Export; Kuruyemiş, kuru meyve, baharat ve zeytinyağı ürünlerini dünya pazarlarıyla buluşturan tedarik ve ihracat firmasıdır.": "Auriva Export es una empresa comercial y de exportación que suministra frutos secos, frutas deshidratadas, especias y aceite de oliva a los mercados internacionales.",
+    "Güvenilir tedarik ağı ve güçlü lojistik altyapısı ile hizmet verir.": "Ofrece servicios con una red de suministro fiable y una sólida infraestructura logística.",
+    "Detaylı Bilgi Al": "Ver más detalles"
   },
 
   "de": {
@@ -117,6 +148,14 @@
     "Geniş Ürün Yelpazesi": "Breites Produktspektrum",
     "Esnek Ambalaj": "Flexible Verpackung",
     "Global Teslimat": "Globale Lieferung",
-    "Ürün Gruplarımız": "Unsere Produktgruppen"
+    "Ürün Gruplarımız": "Unsere Produktgruppen",
+
+    "Badem, fındık, kaju, çekirdek çeşitleri.": "Verschiedene Sorten von Mandeln, Haselnüssen, Cashews und Kernen.",
+    "Kayısı, incir, hurma ve üzüm çeşitleri.": "Verschiedene Sorten von Aprikosen, Feigen, Datteln und Trauben.",
+    "Toz ve tane baharat çeşitleri.": "Verschiedene Sorten von gemahlenen und ganzen Gewürzen.",
+    "Zeytin & zeytinyağı çeşitleri.": "Verschiedene Sorten von Oliven und Olivenöl.",
+    "Auriva Export; Kuruyemiş, kuru meyve, baharat ve zeytinyağı ürünlerini dünya pazarlarıyla buluşturan tedarik ve ihracat firmasıdır.": "Auriva Export ist ein Handels- und Exportunternehmen, das Nuss-, Trockenfrucht-, Gewürz- und Olivenölprodukte in globale Märkte liefert.",
+    "Güvenilir tedarik ağı ve güçlü lojistik altyapısı ile hizmet verir.": "Es arbeitet mit einem zuverlässigen Liefernetzwerk und einer starken Logistikinfrastruktur.",
+    "Detaylı Bilgi Al": "Mehr Informationen"
   }
 }
