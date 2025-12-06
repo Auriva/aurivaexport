@@ -98,25 +98,24 @@ a {
     color: #ccc;
 }
 
+/* === DİL BAYRAKLARI === */
 .header-lang {
     margin-top: 3px;
+    display: flex;
+    align-items: center;
 }
 
-.header-lang span {
+.header-lang img {
+    width: 22px;          /* bayrak boyutu */
+    height: auto;
     margin-left: 6px;
-    font-size: 15px;
     cursor: pointer;
-    font-weight: 600;
+    transition: transform 0.15s ease;
+    border-radius: 2px;   /* köşeler çok hafif oval */
 }
 
-.header-lang span:hover {
-    color: #d60000;
-}
-
-.header-lang span {
-  font-size: 18px;   /* boyutu ister 14–20 arası ayarlayabilirsin */
-  cursor: pointer;
-  margin-left: 6px;
+.header-lang img:hover {
+    transform: scale(1.15);
 }
 
 /* ===== HERO ===== */
