@@ -256,21 +256,45 @@
       </div>
     </div>
 
-  </footer>
-
-  <!-- GOOGLE TRANSLATE HİZMETİ İÇİN GİZLİ ELEMENT -->
-  <div id="google_translate_element" style="display:none;"></div>
-
-  <!-- DİL DEĞİŞTİRME FONKSİYONU -->
   <script>
-  function translateTo(lang) {
-      var select = document.querySelector("select.goog-te-combo");
-      if (select) {
-          select.value = lang;
-          select.dispatchEvent(new Event("change"));
-      }
-  }
-  </script>
+    // Dil butonlarını yöneten fonksiyon
+    function translateTo(lang) {
+        // Önce mevcut sayfanın orijinal (Türkçe) adresini bulalım
+        var currentUrl = window.location.href;
+
+        // Eğer şu anda zaten translate.google.com içindeysek,
+        // orijinal site adresini "u=" parametresinden çekelim
+        if (currentUrl.indexOf('translate.google') !== -1) {
+            var match = currentUrl.match(/[?&]u=([^&]+)/);
+            if (match && match[1]) {
+                currentUrl = decodeURIComponent(match[1]);
+            } else {
+                // Her ihtimale karşı fallback
+                currentUrl = 'https://aurivaexport.com/';
+            }
+        }
+
+        // TR'ye basılırsa her zaman orijinal Türkçe siteye dön
+        if (lang === 'tr') {
+            window.location.href = currentUrl;
+            return;
+        }
+
+        // Hedef dil (EN veya AR)
+        var targetLang = lang; // 'en' veya 'ar'
+
+        // Google Translate URL'sini oluştur
+        var translateUrl =
+            'https://translate.google.com/translate?sl=tr&tl=' +
+            encodeURIComponent(targetLang) +
+            '&u=' + encodeURIComponent(currentUrl);
+
+        // Kullanıcıyı çevirilmiş sayfaya gönder
+        window.location.href = translateUrl;
+    }
+    </script>
+
+   </footer>
 
 </body>
 </html>
