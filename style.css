@@ -113,6 +113,12 @@ a {
     color: #d60000;
 }
 
+.header-lang span {
+  font-size: 18px;   /* boyutu ister 14–20 arası ayarlayabilirsin */
+  cursor: pointer;
+  margin-left: 6px;
+}
+
 /* ===== HERO ===== */
 
 
