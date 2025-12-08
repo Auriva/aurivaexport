@@ -324,5 +324,31 @@
 
   <script src="translate.js"></script>
 
+  <script>
+document.querySelector(".contact-form form").addEventListener("submit", async function(e) {
+    e.preventDefault();
+
+    const form = e.target;
+    const formData = new FormData(form);
+
+    const response = await fetch("/contact", {
+        method: "POST",
+        body: formData
+    });
+
+    if (response.ok) {
+        document.getElementById("successMessage").style.display = "block";
+        form.reset();
+
+        setTimeout(() => {
+            document.getElementById("successMessage").style.display = "none";
+        }, 5000);
+    } else {
+        alert("Mesaj gönderilirken hata oluştu. Lütfen tekrar deneyin.");
+    }
+});
+</script>
+
+
 </body>
 </html>
