@@ -331,6 +331,26 @@
   <script src="translate.js"></script>
 
   <script>
+function updateMetaTags(lang) {
+    const descriptions = {
+        tr: "Auriva Export, Türkiye’nin önde gelen kuruyemiş, kuru meyve, zeytinyağı ve baharat ihracatçısıdır.",
+        en: "Auriva Export is a leading Turkish exporter of nuts, dried fruits, olive oil and spices.",
+        ar: "شركة أوريفا إكسبرت هي مورد تركي رائد للمكسرات والفواكه المجففة والزيوت والتوابل.",
+        es: "Auriva Export es un proveedor líder de frutos secos, frutas deshidratadas, aceite de oliva y especias.",
+        de: "Auriva Export ist ein führender türkischer Exporteur von Nüssen, Trockenfrüchten, Olivenöl und Gewürzen."
+    };
+
+    document
+        .querySelector('meta[name="description"]')
+        .setAttribute("content", descriptions[lang] || descriptions["tr"]);
+}
+</script>
+
+<script>
+updateMetaTags(lang);  // BURASI DA KALACAK
+</script>
+
+  <script>
 document.querySelector(".contact-form form").addEventListener("submit", async function(e) {
     e.preventDefault();
 
