@@ -262,5 +262,28 @@
 
   <script src="translate.js"></script>
 
+  <script>
+    // PRODUCTS SAYFASI İÇİN DİL BAZLI META AÇIKLAMALARI
+    function updateMetaTags(lang) {
+      const descriptions = {
+        tr: "Auriva Export; dünya pazarlarına yüksek kaliteli Türk kuruyemişleri, kuru meyveleri, zeytinyağı ve baharat ürünleri tedarik eder. Özel marka (private label) üretim ve hızlı konteyner sevkiyatı sunar.",
+        en: "Auriva Export supplies premium Turkish nuts, dried fruits, olive oil and spices to global markets. We offer private label production and fast container shipping from Turkey.",
+        ar: "تقوم شركة أوريفا إكسبرت بتوريد المكسرات التركية الفاخرة والفاكهة المجففة وزيت الزيتون والتوابل إلى الأسواق العالمية مع إمكانية العلامة الخاصة وشحن الحاويات السريع من تركيا.",
+        es: "Auriva Export suministra frutos secos, frutas deshidratadas, aceite de oliva y especias de Turquía a los mercados globales, con opciones de marca privada y envíos rápidos en contenedor.",
+        de: "Auriva Export beliefert weltweite Märkte mit hochwertigen türkischen Nüssen, Trockenfrüchten, Olivenöl und Gewürzen und bietet Private-Label-Produktion sowie schnellen Container-Versand aus der Türkei."
+      };
+
+      const metaDesc = document.querySelector('meta[name="description"]');
+      if (metaDesc) {
+        metaDesc.setAttribute("content", descriptions[lang] || descriptions["en"]);
+      }
+    }
+  </script>
+
+  <script>
+    // translate.js içindeki global 'lang' değerini kullanıyoruz
+    updateMetaTags(lang);
+  </script>
+
 </body>
 </html>
