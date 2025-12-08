@@ -583,6 +583,16 @@ a {
     object-fit: contain;
 }
 
+/* === HEADER YÜKSEKLİĞİNİ LOGOYA GÖRE AYARLA === */
+.header-inner {
+    align-items: center;
+    height: 110px;   /* İstersen 120px yapabilirsin */
+}
+
+.header-logo img.site-logo {
+    min-height: 80px;
+}
+
 /* Mobilde biraz daha küçük olsun */
 @media (max-width: 768px) {
     .site-logo {
