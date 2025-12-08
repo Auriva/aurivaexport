@@ -598,6 +598,17 @@ a {
     .site-logo {
         height: 50px;
     }
+    .success-box {
+  background: #e9ffe9;
+  border: 1px solid #55c455;
+  padding: 15px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border-radius: 6px;
+  color: #2a7a2a;
+  text-align: center;
+}
+    
 }
 
 /* ===== MOBİL ===== */
