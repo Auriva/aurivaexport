@@ -578,7 +578,7 @@ a {
 
 /* HEADER + FOOTER logoları için ortak class */
 .site-logo {
-    height: 70px;       /* Masaüstü için logo yüksekliği */
+    height: 80px;       /* Masaüstü için logo yüksekliği */
     width: auto;        /* Oran bozulmasın */
     object-fit: contain;
 }
@@ -586,7 +586,7 @@ a {
 /* Mobilde biraz daha küçük olsun */
 @media (max-width: 768px) {
     .site-logo {
-        height: 45px;
+        height: 50px;
     }
 }
 
